@@ -17,3 +17,7 @@ Steps:
 
 3) Server Monitoring
 - Start Server or Stop Server
+
+
+HOW TO UPDATE:
+Re-run "install a server". Server configs are saved to config.ini
