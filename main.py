@@ -284,7 +284,7 @@ class App(customtkinter.CTk):
         
         self.link1_txt.grid(row=0, column=0, padx=20, pady=(10, 0))
 
-        self.link1_url = customtkinter.CTkLabel(self.right_dashboard, text="http://www.example.com", cursor="hand2", text_color="green")
+        self.link1_url = customtkinter.CTkLabel(self.right_dashboard, text="https://github.com/SpasticSquirr3l/PalWorld-Self-Hosting", cursor="hand2", text_color="green")
         self.link1_url.bind("<Button-1>", lambda e: callback("http://www.example.com"))
         self.link1_url.grid(row=0, column=1, padx=20, pady=(10, 0))
 
